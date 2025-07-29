@@ -41,6 +41,10 @@ python main.py
 - POST `/text-to-image`: 文本生成图像API
   - 请求体: {"prompt": "你的文本描述", "num_inference_steps": 20, "guidance_scale": 7.5}
   - 返回: 生成的PNG图像
+## 实例展示
+a beautiful sunset over the mountains
+<img width="793" height="758" alt="image" src="https://github.com/user-attachments/assets/e8a55ee8-fad5-49ac-b8f6-4d7fb88f1ff0" />
+
 
 ## 注意事项
 - 首次运行时会自动下载Stable Diffusion模型（约4GB），需要联网
